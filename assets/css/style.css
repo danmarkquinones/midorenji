@@ -48,7 +48,7 @@ body{
 	color: blue;
 }
 .showcase-div{
-	height: 350px;
+	height: 330px;
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(../images/bg2.jpeg);
 	background-position: left;
 	background-size: contain;
@@ -57,13 +57,14 @@ body{
 }
 .picture-div{
 	position: absolute;
-	top: 15%;
+	top: 0%;
 	left: 38%;
 	background-color: transparent;
 	box-shadow: 0 0 10px black;
 	height: 320px;
 	width: 50%;
 	border-radius: 10px;
+	margin-top:150px;
 }
 .content-div{
 	height: auto;

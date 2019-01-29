@@ -53,8 +53,9 @@ body{
 }
 .showcase-div{
 	height: 310px;
+	background-color: white;
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(../images/bg2.jpeg);
-	background-position: left;
+	background-position: bottom;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -78,6 +79,7 @@ body{
 	border-radius: 50%;
 	box-shadow:  0 0 10px black;
 	object-position: center;
+	object-fit: cover;
 }
 .picture-text{
 	position: absolute;
@@ -104,9 +106,16 @@ body{
 }
 .capstone-project-list{	
 	padding: 1rem;
+	border-radius: 10px;
+	transition: .5s;
 }
 .capstone-project-list:nth-child(even){
 	background-color: lightgrey;
+}
+.capstone-project-list:hover{
+	background-color: #C3C1C1;
+	transition: .5s;
+	box-shadow: 0 0 5px black;
 }
 .project-container{
 	height: 300px;
@@ -115,4 +124,23 @@ body{
 	object-fit: contain;
 	height: 300px;
 	width: auto;
+}
+.contacts h5:hover i{
+	color: #28a745;
+}
+.interests .row div{
+	transition: .5s;
+	padding:.5rem;
+	border-radius: 5px;
+}
+.interests .row div:hover{
+	box-shadow: 0 0 5px black;
+	background-color: #C3C1C1;
+	transition: .5s;
+}
+.fas.fa-star{
+	color: #F9D339;
+}
+.fas.fa-star-half-alt{
+	color: goldenrod;
 }

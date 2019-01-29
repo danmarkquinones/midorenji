@@ -104,7 +104,7 @@ body{
 .back-end-div,.program-div{
 	border-left: 1px solid black;
 }
-.capstone-project-list{	
+.capstone-project-list{
 	padding: 1rem;
 	border-radius: 10px;
 	transition: .5s;

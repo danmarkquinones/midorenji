@@ -138,6 +138,18 @@ body{
 	background-color: #C3C1C1;
 	transition: .5s;
 }
+.extras .row div{
+	transition: .5s;
+	padding:.5rem;
+	border-radius: 5px;
+	background-color: #lightgrey;
+}
+.extras .row div:hover{
+	box-shadow: 0 0 5px black;
+	background-color: #C3C1C1;
+	transition: .5s;
+	cursor:pointer;
+}
 .fas.fa-star{
 	color: #F9D339;
 }
